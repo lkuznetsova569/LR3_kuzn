@@ -1,21 +1,3 @@
-# #Общая часть ЛР3
-# #Первое задание
-# import os
-# Secret_1=os.environ['Secret_1']  #Вопрос в рамках 4 задания "что происходит при обращении к os.environ и откуда берётся значение?" 
-                                   # Ответ: при обращении к os.environ происходит обращение к переменным окружения, которые хранятся в системе. Значение переменной Secret_1 берется из переменных окружения системы. (Иманбаева)
-# print(Secret_1)
-
-# Оставила код Иманбаева для Кузнецовой в рамках выполнения первого задания ЛР3
-import os
-S1_Imanbaeva=os.environ['S1_Imanbaeva']
-print(S1_Imanbaeva)
-import os
-S2_Imanbaeva=os.environ['S2_Imanbaeva']
-print(S2_Imanbaeva)
-import os
-S3_Imanbaeva=os.environ['S3_Imanbaeva']
-print(S3_Imanbaeva)
-
 #Второе задание ЛР3(6 вариант). Делала в команде с Иманбаевой
 from sympy import *
 k, T, C, L = symbols('k T C L')
